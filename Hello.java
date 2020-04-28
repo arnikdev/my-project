@@ -2,7 +2,7 @@ class Hello{
 
     public void greetings(String msg)
     {
-        System.out.println("Hello " + msg);
+        System.out.println("Bye Bye" + msg);
     }
     public void sum(int n1,int n2)
     {
@@ -12,7 +12,6 @@ class Hello{
     {
         System.out.println("Hello Wolrd");
         Hello obj = new Hello();
-        obj.greetings("Git");
-        obj.sum(5,10);
+        obj.greetings("Git Lab");
     }
 }
